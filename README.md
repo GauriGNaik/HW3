@@ -8,6 +8,7 @@ The are three files in this HW3 repository:
 * For implementing the proxy server, the node-http-proxy library is used. To install this dependency, you need to run the following in the repository: 
 ```
 cd Queues
+npm install
 npm install http-proxy --save
 ```
 * You also need to start the redis server by running the following:
