@@ -103,6 +103,7 @@ So next call to proxy server, will result in the following being popped as it is
 ```
 http://localhost:3001 
 ```
+This is how the values keep rotating in the first queue and load balancing is performed. 
 All the requests to the proxy server can be made using: 
 ```
 http://localhost/
