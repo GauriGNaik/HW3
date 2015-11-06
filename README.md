@@ -7,7 +7,7 @@ The are three files in this HW3 repository:
 # Prerequisites
 * For implementing the proxy server, the node-http-proxy library is used. To install this dependency, you need to run the following in the repository: 
 ```
-cd Queues
+cd HW3
 npm install
 npm install http-proxy --save
 ```
