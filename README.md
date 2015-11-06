@@ -85,11 +85,11 @@ It inserts that value at the head of the second queue which is named:
 ```
 inprocess
 ```
-It then redirects the request to that server instance. The following is just a code snippet. You need to look at the actual proxy.js file in order to understand it.
+It uses that value inserted into the second queue and redirects the request to that server instance. The following is just a code snippet of how it is done. You need to look at the actual proxy.js file in order to understand it.
 ```
 proxy.web(req, res, {target: data}); 
 ```
-Here data is the popped value
+Here data is the popped url
 
 It then again does a rpoplpush and puts the value back into the first queue
 ```
@@ -99,9 +99,13 @@ queue
 http://localhost:3000 (head)
 http://localhost:3001 (tail)
 ```
-So next call to proxy server, will result in call to 
+So next call to proxy server, will result in the following being popped as it is at the tail of the queue 
 ```
 http://localhost:3001 
+```
+All the requests to the proxy server can be made using: 
+```
+http://localhost/
 ```
 
 
