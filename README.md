@@ -108,6 +108,8 @@ All the requests to the proxy server can be made using:
 ```
 http://localhost/
 ```
+# Screencast
+![screencast for hw3](https://cloud.githubusercontent.com/assets/11006675/10986200/fd073ed4-83f5-11e5-9ddf-381899d447aa.gif)
 
 
 
