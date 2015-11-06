@@ -1,8 +1,8 @@
 # HW3
 The are three files in this HW3 repository:
-* main.js which is server instance runnig on port 3000
+* main.js which is server instance running on port 3000
 * main1.js which is server instance running on port 3001
-* proxy.js which is the proxy server runnig on port 80
+* proxy.js which is the proxy server running on port 80
 
 # Prerequisites
 * For implementing the proxy server, the node-http-proxy library is used. To install this dependency, you need to run the following in the repository: 
