@@ -108,6 +108,10 @@ All the requests to the proxy server can be made using:
 ```
 http://localhost/
 ```
+
+##### Note
+Since the key expires in 10 seconds, when localhost/get is performed, it may display null value for the expired key in some portions of the screencast.
+
 # Screencast
 ![screencast for hw3](https://cloud.githubusercontent.com/assets/11006675/10986200/fd073ed4-83f5-11e5-9ddf-381899d447aa.gif)
 
