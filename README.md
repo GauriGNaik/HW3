@@ -109,7 +109,7 @@ All the requests to the proxy server can be made using:
 http://localhost/
 ```
 
-##### Note
+### Note
 Since the key expires in 10 seconds, when localhost/get is performed, it may display null value for the expired key in some portions of the screencast.
 
 # Screencast
