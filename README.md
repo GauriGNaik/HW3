@@ -1,28 +1,28 @@
 # HW3
 The are three files in this HW3 repository:
-1. main.js which is server instance runnig on port 3000
-2. main1.js which is server instance running on port 3001
-3. proxy.js which is the proxy server runnig on port 80
+* main.js which is server instance runnig on port 3000
+* main1.js which is server instance running on port 3001
+* proxy.js which is the proxy server runnig on port 80
 
 # Prerequisites
-1. For implementing the proxy server, the node-http-proxy library is used. To install this dependency, you need to run the following in the repository: 
+* For implementing the proxy server, the node-http-proxy library is used. To install this dependency, you need to run the following in the repository: 
 ```
 cd Queues
 npm install http-proxy --save
 ```
-2. You also need to start the redis server by running the following:
+* You also need to start the redis server by running the following:
 ```
 redis-server
 ```
-3. To run the first server instance running on port 3000, run the following: 
+* To run the first server instance running on port 3000, run the following: 
 ```
 node main.js
 ```
-4. To run the second server instance running on port 3001, run the following:
+* To run the second server instance running on port 3001, run the following:
 ```
 node main1.js
 ```
-5. To run the proxy server running on port 80, run the following: 
+* To run the proxy server running on port 80, run the following: 
 ```
 sudo node proxy.js
 ```
